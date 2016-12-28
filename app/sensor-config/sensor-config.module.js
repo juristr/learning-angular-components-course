@@ -1,0 +1,68 @@
+System.register(['@angular/forms', '@angular/core', '@angular/common', './../modal/modal.module', './sensor-config.component', './sensor-filter.component', './sensor-list.component', './filter-sensor.pipe'], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+        var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+        if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+        else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+        return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    var __metadata = (this && this.__metadata) || function (k, v) {
+        if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+    var forms_1, core_1, common_1, modal_module_1, sensor_config_component_1, sensor_filter_component_1, sensor_list_component_1, filter_sensor_pipe_1;
+    var SensorConfigModule;
+    return {
+        setters:[
+            function (forms_1_1) {
+                forms_1 = forms_1_1;
+            },
+            function (core_1_1) {
+                core_1 = core_1_1;
+            },
+            function (common_1_1) {
+                common_1 = common_1_1;
+            },
+            function (modal_module_1_1) {
+                modal_module_1 = modal_module_1_1;
+            },
+            function (sensor_config_component_1_1) {
+                sensor_config_component_1 = sensor_config_component_1_1;
+            },
+            function (sensor_filter_component_1_1) {
+                sensor_filter_component_1 = sensor_filter_component_1_1;
+            },
+            function (sensor_list_component_1_1) {
+                sensor_list_component_1 = sensor_list_component_1_1;
+            },
+            function (filter_sensor_pipe_1_1) {
+                filter_sensor_pipe_1 = filter_sensor_pipe_1_1;
+            }],
+        execute: function() {
+            SensorConfigModule = (function () {
+                function SensorConfigModule() {
+                }
+                SensorConfigModule = __decorate([
+                    core_1.NgModule({
+                        imports: [
+                            common_1.CommonModule,
+                            modal_module_1.ModalModule,
+                            forms_1.FormsModule
+                        ],
+                        declarations: [
+                            sensor_config_component_1.SensorConfigureComponent,
+                            sensor_list_component_1.SensorListComponent,
+                            sensor_filter_component_1.SensorFilterComponent,
+                            filter_sensor_pipe_1.FilterSensor
+                        ],
+                        exports: [],
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], SensorConfigModule);
+                return SensorConfigModule;
+            }());
+            exports_1("SensorConfigModule", SensorConfigModule);
+        }
+    }
+});
+//# sourceMappingURL=sensor-config.module.js.map
