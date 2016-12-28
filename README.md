@@ -1,54 +1,31 @@
-<p align="center">
-  <a href="https://goo.gl/iJKPUi">
-    <img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/bookretailers/9781785884702.png" alt="Video Course: Learning Angular 2 Components" />
-  </a>
-  <br />
-  <a href="https://goo.gl/iJKPUi" style="font-size:24px;font-weight:bold">Add to cart</a>
-</p>
+# Aotapp
 
-# Video Course: Learning Angular 2 Components
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
-[by Juri Strumpflohner](https://twitter.com/juristr)
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-_Learn how to build efficient Angular 2 components with this fast and interactive guide_
+## Code scaffolding
 
----
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
-## Contents
+## Build
 
-This is the code repository for the [Learning Angular 2 Components](https://goo.gl/iJKPUi) video course. The code
-samples for each video can be found in the corresponding branches:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-- **Section 1: Getting Started**
-  - The Course Overview
-  - [Project Setup](https://github.com/juristr/learning-angular2-components-course/tree/1.2-project-setup)
-  - All about Components
-    - [components with jQuery](https://github.com/juristr/learning-angular2-components-course/tree/1.3.1-jquery-component)
-    - [web components](https://github.com/juristr/learning-angular2-components-course/tree/1.3.2-vanilla-components)
-- **Section 2: Angular 2 - Scratching the surface**
-  - [Upgrading from Angular 1.x](https://github.com/juristr/learning-angular2-components-course/tree/2.1-upgrade-ng-1)
-  - [Hello Angular 2!](https://github.com/juristr/learning-angular2-components-course/tree/2.2-hello-angular2)
-  - [Feeding OUr Component with Data](https://github.com/juristr/learning-angular2-components-course/tree/2.3-feeding-with-data)
-- **Section 3: HomeAuto - First Screens**
-  - [Decomposing and Building Application Foundation](https://github.com/juristr/learning-angular2-components-course/tree/3.1-decompose-app-foundation-v2)
-  - [Scanning for New Sensors](https://github.com/juristr/learning-angular2-components-course/tree/3.2-scanning-new-sensors-v2)
-  - [Creating a General Purpose Filter](https://github.com/juristr/learning-angular2-components-course/tree/3.3-general-purpose-filter-v2)
-- **Section 4: Building Reusable Modals**
-  - [Selecting and Configuring a New Sensor](https://github.com/juristr/learning-angular2-components-course/tree/4.1-configure-sensor-v2)
-  - [Making the Modal Generally Reusable](https://github.com/juristr/learning-angular2-components-course/tree/4.2-modal-reusable-v2)
-  - [Attribute Directives to the Help](https://github.com/juristr/learning-angular2-components-course/tree/4.3-attribute-directives-v2)
-- **Section 5: Building up our Dashboard**
-  - [Creating a Dashboard Widget](https://github.com/juristr/learning-angular2-components-course/tree/5.1-create-dashboard-widget-v2)
-  - [Integrating an External Library - Data Visualization with d3](https://github.com/juristr/learning-angular2-components-course/tree/5.2-integrate-d3-v2)
-  - [Ready for production - Bundling and Minification](https://github.com/juristr/learning-angular2-components-course/tree/5.3-ready-for-production-v2)
-- **Section 6: Maintaining Components**
-  - [Unit Testing Angular 2 Components](https://github.com/juristr/learning-angular2-components-course/tree/6.1-unittesting-v2)
-  - [Debugging (with Batarangle)](https://github.com/juristr/learning-angular2-components-course/tree/6.2-debugging-v2)
-  - [e2e Testing Angular 2 Components](https://github.com/juristr/learning-angular2-components-course/tree/6.3-ui-testing-protractor-v2)
-- **Section 7: Show me more!**
-  - [Angular 2 Goes Mobile with Ionic 2](https://github.com/juristr/learning-angular2-components-course/tree/7.1-ionic)
-  - [Going Universal with Angular 2](https://github.com/juristr/learning-angular2-components-course/tree/7.2-angular-universal-v2)
+## Running unit tests
 
-## Questions?
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Feel free to simply [open an issue](https://github.com/juristr/learning-angular2-components-course/issues) on this repo here :smiley:
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Deploying to Github Pages
+
+Run `ng github-pages:deploy` to deploy to Github Pages.
+
+## Further help
+
+To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
