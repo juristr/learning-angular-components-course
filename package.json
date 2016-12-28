@@ -1,0 +1,22 @@
+{
+  "name": "learning-angular2-components",
+  "author": "Juri Strumpflohner",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w --project src",
+    "lite": "lite-server"
+  },
+  "dependencies": {
+    "systemjs": "^0.19.9",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0",
+    "typescript": "^1.6.2"
+  }
+}
