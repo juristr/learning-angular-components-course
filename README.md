@@ -1,5 +1,5 @@
 
-# Video Course: Learning Angular 2 Components (2nd Edition)
+# Video Course: Learning Angular Components (2nd Edition)
 
 [by Juri Strumpflohner](https://twitter.com/juristr)
 
