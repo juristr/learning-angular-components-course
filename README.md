@@ -11,7 +11,7 @@
 
 [by Juri Strumpflohner](https://twitter.com/juristr)
 
-_Learn how to build efficient Angular 2 components with this fast and interactive guide_
+_Learn how to build efficient Angular components with this fast and interactive guide. All contents are using Angular 2+._
 
 ---
 
