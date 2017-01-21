@@ -1,10 +1,3 @@
-
-# Video Course: Learning Angular Components (2nd Edition)
-
-[by Juri Strumpflohner](https://twitter.com/juristr)
-
-_Learn how to build efficient Angular 2 components with this fast and interactive guide_
-
 <p align="center">
   <a href="https://goo.gl/zrGX8K">
     <img src="https://juristr.com/blog/assets/imgs/banner-learning-angular-components.jpg" alt="Video Course: Learning Angular Components" />
@@ -12,6 +5,13 @@ _Learn how to build efficient Angular 2 components with this fast and interactiv
   <br />
   <a href="https://goo.gl/zrGX8K" style="font-size:24px;font-weight:bold">Add to cart</a>
 </p>
+
+
+# Video Course: Learning Angular Components (2nd Edition)
+
+[by Juri Strumpflohner](https://twitter.com/juristr)
+
+_Learn how to build efficient Angular 2 components with this fast and interactive guide_
 
 ---
 
